@@ -1,0 +1,127 @@
+@import '../../Styles/colors.css';
+@import '../../Styles//fonts.css';
+
+.container-navbar-desk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    background-color:var(--gary-regular-01);
+    width: 100%;
+    max-height: 60px;
+}
+
+.container-navbar-desk-scrollY{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color:var(--gary-regular-01);
+    width: 100%;
+    max-height: 60px;
+}
+.DepartmentNotScroll{
+    display: none;
+}
+.DepartmentHasScroll{
+    display: flex;
+}
+.box-group-store{
+    display: flex;
+    padding: 5px;
+    width: 100px;
+    height: 60px;
+}
+.content__departmentNavBar{
+    display: flex;
+    gap: 5px;
+    color: var( --purple-regular-00);
+    font-weight: var(--font-regular-02);
+    font-size: var(--font-size-18);
+    font-family: var(--font-family-sans-serif);
+
+    cursor: pointer;
+}
+.content__departmentNavBar span{
+    display: flex;
+    align-items: center;
+}
+
+.contain-group-options-header{
+    display: flex;
+    gap: 20px;
+}
+.content__search{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid;
+    background-color: var(--white-00);
+    height: 50px;
+    width: 400px;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.content__search input{
+    border: none;
+    width: 90%;
+    height: 40px;
+    font-size: var(--font-size-18);
+    font-family: var(--font-family-sans-serif);
+    color: var(--purple-bold-01);
+}
+.content__search input:focus{
+    outline: none;
+    background-color: var(--white-00);
+    border-radius: 5px;
+    font-weight: var(--font-bold-00);
+}
+.Button__miniCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--purple-bold-01);
+    width: 150px;
+    height: 60px;
+}
+.user__option{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.text__user__options{
+    color: var(--purple-regular-00);
+    font-size: var(--font-size-16);
+}
+.text__user__options_cart{
+    color: var(--white-00);
+}
+
+@media (max-width: 1024px){
+    .text__user__options{
+        display: none;
+    }
+    .text__user__options_cart{
+        display: none;
+    }
+    
+    .content__departmentNavBar{
+        /* display: none; */
+        padding: 0 5px;
+    }
+}
+@media (max-width: 900px){
+    
+    .content__search{
+       max-width: 300px;
+    }
+}
+@media (max-width: 690px){
+    
+    .content__search{
+        display: none;
+    }
+}
