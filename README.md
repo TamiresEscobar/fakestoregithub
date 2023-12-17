@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 use npm start to start the project in the browser
 
 ### `MAIN CONTENT` with react-app settings
-branch principal com as configurações inicial do react-app.
+branch principal com as configurações iniciais do react-app.
 Utilize a branch develop para obter atualizações de componentes.
 
 ## `BRANCH develop`

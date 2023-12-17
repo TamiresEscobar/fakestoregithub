@@ -1,9 +1,4 @@
-.flex-layout-row{
-    max-width: 1440px;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-}
+
 
 .App {
     text-align: center;
@@ -13,8 +8,8 @@
   .App-render {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #4e4e4e;
+    /* font-size: calc(10px + 2vmin); */
+    
   }
