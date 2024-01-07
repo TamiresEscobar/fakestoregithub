@@ -7,6 +7,7 @@ import Login from "../Login/index";
 import MenuCategory from "../CategoryMenu/index";
 import { LiaStoreAltSolid } from "react-icons/lia";
 import { TiThMenuOutline } from "react-icons/ti";
+import { Link } from 'react-router-dom'
 /* 
 Componente renderiza nav bar com todas as funcionalidades.
 */
@@ -42,9 +43,10 @@ const NavBarDesk = () => {
   return (
     <div className={direction}>
       <section className="menu-deskt">
-        <div className="box-group-store">
+        <Link to="/" className="box-group-store">
           <LiaStoreAltSolid size={60} color="#6B256F" />
-        </div>
+          
+        </Link>
       </section>
 
       <section className={teste}>
@@ -68,12 +70,12 @@ const NavBarDesk = () => {
       <section className="contain-group-options-header">
         <div className="user__option">
           <Login />
-          <span className="text__user__options">Minha Conta</span>
         </div>
+
         <div className="user__option">
           <MyFavorites />
-          <span className="text__user__options">Meus Favoritos</span>
         </div>
+
         <div className="Button__miniCart">
           <MiniCart />
           <span className="text__user__options_cart">Carrinho</span>

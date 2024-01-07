@@ -1,0 +1,14 @@
+@import '../../Styles/colors.css';
+
+.link_myFavorites{
+    text-decoration: none;
+    
+}
+.container__myFavorites_header{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.title__myFavorites_header{
+    color: var(--purple-regular-00);
+}

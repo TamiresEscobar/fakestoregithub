@@ -1,0 +1,39 @@
+
+@import '../../Styles/colors.css';
+@import '../../Styles/fonts.css';
+
+.link__myAccount{
+    text-decoration: none;
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.content_login_myAccount{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.content_login_register{
+    display: flex;
+    justify-content: right;
+}
+.title_login_text{
+    color: var(--purple-regular-00);
+    font-size: var( --font-size-18);
+    font-weight: var(--font-regular-01);
+
+}
+.subtitle_login_text{
+    font-size: var( --font-size-14);
+    color: var( --gray-bold-02);
+    font-weight: var(--font-regular-00);
+}
+@media(max-width: 1024px){
+    .title_login_text, .subtitle_login_text{
+        display: none;
+    }
+}

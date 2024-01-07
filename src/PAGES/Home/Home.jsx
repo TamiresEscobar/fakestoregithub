@@ -1,12 +1,14 @@
 import React from "react";
 
-import NavBar from "../../Header/Navbar";
+import Header from "../../Header/Navbar";
+import Banner_Header from "../../Components/BannerHeader/Banner_Header";
 
 const Home_Page = () => {
   return (
     <div className="App">
       <div className=" App-render ">
-        <NavBar />
+        <Banner_Header/>
+        <Header />
       </div>
       <div>aaaa</div>
       <div>aaaa</div>
@@ -38,12 +40,8 @@ const Home_Page = () => {
       <div>aaaa</div>
       <div>aaaa</div>
       <div>aaaa</div>
-      <div>aaaa</div>
-      <div>aaaa</div>
-      <div>aaaa</div>
-      <div>aaaa</div>
-      <div>aaaa</div>
-      <div>aaaa</div>
+
+
 
     </div>
   );
