@@ -1,34 +1,18 @@
 import React from "react";
 import Header from "../../Header/Navbar";
-import Cadastro_Login from "../../Components/CadastroLogin/Cadastro_Login";
-
-
+import "./styles.css";
+import { Link } from "react-router-dom";
 
 const Profile_Page = () => {
- 
-
   return (
     <div>
       <div>
         <Header />
       </div>
-      <div><Cadastro_Login/></div>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
-      <h1>PAGINA DE PROFILE</h1>
+
+      <div className="container__profile_page">
+       aqui pagina de profile
+      </div>
     </div>
   );
 };

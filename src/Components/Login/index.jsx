@@ -5,7 +5,7 @@ import "./style.css";
 
 const Login = () => {
   return (
-    <Link to="/profile" className="link__myAccount">
+    <Link to="/login" className="link__myAccount">
       <div className="content_login_myAccount">
         <VscAccount size={20} />
 
